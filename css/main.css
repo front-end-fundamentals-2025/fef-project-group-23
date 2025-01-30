@@ -1,0 +1,59 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: white;
+}
+/* HOMEPAGE*/
+/* HEADER*/
+
+header {
+  display: flex;
+  align-items: end;
+  margin-top: auto;
+  gap: 65%;
+  
+}
+
+body {
+  background-color: #8c1936;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  
+}
+li {
+  margin-left: 3rem;
+}
+h1 {
+  text-align: center;
+  margin-top: 15%;
+  font-size: 500%;
+  color: #cc99a5;
+}
+
+/*FOOTER*/
+
+footer {
+  border-top: 1px solid white;
+}
+
+.footer-aimee {
+  text-align: left;
+  font-size: 0.7vw;
+  font-weight: 400;
+}
+
+.footer-aimee2 {
+  font-size: 0.7vw;
+  font-weight: 300;
+}
