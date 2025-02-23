@@ -13,12 +13,13 @@ a {
 }
 /* HOMEPAGE*/
 /* HEADER*/
+.main-model-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
 
 .model {
-  width: 20%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-left: 3.8%;
+  width: 100%;
 }
 
 .product{
@@ -63,3 +64,26 @@ footer {
   font-size: 0.7vw;
   font-weight: 300;
 }
+
+/*PRODUCT PAGE*/
+.category-product{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.product-page{
+  width: 100%;
+}
+
+/*ABOUT US PAGE*/
+.aimeelogo{
+  width: 40%;
+  margin-left: 28%;
+}
+.signiturenames{
+  width: 50%;
+  margin-left: 23%;
+}
+
+/*DETAIL PRODUCT PAGE PICTURE WHITE BLOUSE DRESS*/
+
