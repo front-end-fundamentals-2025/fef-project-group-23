@@ -11,12 +11,54 @@ a {
   font-style: normal;
   color: white;
 }
+
+/* HEADER*/
+/* header-top-line*/
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #cc99a5;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 2px solid #8c1936;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+  width: 250px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #8c1936;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #6a1127;
+}
+
+
+ 
+
+
+
+
 /* HOMEPAGE*/
 
-.position-buttom {
-  padding-left: 40%;
-  padding-top: 10%;
-  position: relative;
+.position-button {
+  margin-top: 10%;
+  margin-left: 40%;
 }
 
 button {
@@ -34,7 +76,7 @@ button {
   display: inline-block; 
 }
 
-/* button:hover {
+ button:hover {
   background-color: #cc99a5;
   color: #8c1936;
   transform: scale(1.1); 
@@ -44,13 +86,14 @@ button {
 button:focus {
   outline: none;
   box-shadow: 0 0 15px rgba(204, 153, 165, 0.8);
-} */
+} 
 
 
 
 
 
 /* HEADER*/
+
 .main-model-grid{
   margin-top: 10%;
   display: grid;
@@ -81,6 +124,7 @@ button:focus {
   margin-top: 10%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  align-items: center;
 }
 
 .accesories {
