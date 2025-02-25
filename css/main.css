@@ -172,6 +172,7 @@ footer {
 }
 
 /*PRODUCT PAGE*/
+
 .category-product{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -180,6 +181,8 @@ footer {
 .product-page{
   width: 100%;
 }
+
+
 
 /*ABOUT US PAGE*/
 .about-us {
