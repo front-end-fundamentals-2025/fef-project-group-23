@@ -185,6 +185,7 @@ h1 {
 
 footer {
   border-top: 1px solid white;
+  margin-top: 100px;
 }
 
 .footer-aimee {
@@ -317,7 +318,6 @@ footer {
   cursor: pointer;
 }
 
-
 .expand-wrapper {
   border-top: 1px solid white;
 }
@@ -388,7 +388,6 @@ footer {
 
 }
 
-
 .contact-info{
   display: flex;
   gap: 10px;
@@ -406,8 +405,84 @@ footer {
 
 }
 
-/*DETAIL PRODUCT PAGE PICTURE WHITE BLOUSE DRESS*/
+/*POFIL PAGE*/
+.profil-container{
+  display: flex;
+  align-items: center;
 
+}
+.Profilpicture{
+  width: 30%;
+  border: 10px dotted #cc99a5;
+  border-radius: 150px;
+}
 
+.profil-info {
+  width: 50%;
+  padding-left: 70px;
+}
+
+.profil-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #cc99a5;
+}
+
+.profil-price {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  margin: 5px 0 15px;
+}
+
+.profil-description {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/*MY ORDERS PAGE*/
+.order-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #cc99a5;
+}
+.order-date-last{
+  border-bottom: 1px dotted white;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+.order-number{
+  font-weight: bold;
+}
+
+.ordered-item{
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+}
+.order-date{
+  text-align: left;
+}
+.white-blouse-previous-orders{
+  width: 30%;
+  margin-top: 100px;
+}
+.hairclip-previous-orders{
+  width: 30%;
+}
+.brownbag-previous-orders{
+  width: 30%;
+  margin-top: 10%;
+}
+
+.my-personal-details-headings{
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.my-personal-details-text{
+  margin-left: 50px;
+}
 /*SITEING 
 https://www.youtube.com/watch?v=QBSSpw-GH2w (How to put icons in Icons)*/
