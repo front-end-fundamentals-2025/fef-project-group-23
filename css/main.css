@@ -177,7 +177,7 @@ footer {
   display: flex;
   max-width: 1200px;
   
-  margin: auto; 
+  margin-left: 11.5%;
   /* padding: 100px 20px; */
   align-items: flex-start;
 }
