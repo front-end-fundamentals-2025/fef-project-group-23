@@ -11,9 +11,41 @@ a {
   font-style: normal;
   color: white;
 }
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
 
+/* NAVIGATION*/
+.shopping-cart-icon{
+  color: rgba(100, 100, 100, 0.5);
+}
+.home-amiee-logo{
+  width: 100px;
+  height: auto;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+nav ul li a{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
 /* HEADER*/
 /* header-top-line*/
+.header-top-line{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .search-bar {
   display: flex;
   justify-content: center;
@@ -47,11 +79,6 @@ a {
 .search-bar button:hover {
   background-color: #6a1127;
 }
-
-
- 
-
-
 
 
 /* HOMEPAGE*/
@@ -331,17 +358,23 @@ footer {
 .about-us {
   font-style: italic;
   font-weight: 80;
+  font-size: 150%;
   text-align: center;
   margin-top: 6%;
+  margin-bottom: 0%;
 }
 .aimeelogo{
   width: 12%;
   margin-left: 44%;
 }
 
+.picture-of-the-two-of-us{
+  width: 60%;
+  margin-left: 17%;
+}
 .signiturenames{
-  width: 30%;
-  margin-left: 35%;
+  width: 50%;
+  margin-left: 25%;
   margin-top: 6%;
 }
 
@@ -363,7 +396,7 @@ footer {
   align-items: center;
   justify-content: center;
   margin-top: 10%;
-  margin-bottom: 21%;
+  margin-bottom: 10%;
   text-align: center;
  
 }
@@ -375,3 +408,6 @@ footer {
 
 /*DETAIL PRODUCT PAGE PICTURE WHITE BLOUSE DRESS*/
 
+
+/*SITEING 
+https://www.youtube.com/watch?v=QBSSpw-GH2w (How to put icons in Icons)*/
