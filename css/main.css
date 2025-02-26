@@ -11,22 +11,126 @@ a {
   font-style: normal;
   color: white;
 }
-/* HOMEPAGE*/
+
 /* HEADER*/
+/* header-top-line*/
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #cc99a5;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 2px solid #8c1936;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+  width: 250px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #8c1936;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #6a1127;
+}
+
+
+ 
+
+
+
+
+/* HOMEPAGE*/
+
+.position-button {
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+button {
+  background-color: #8c1936;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  display: inline-block; 
+}
+
+ button:hover {
+  background-color: #cc99a5;
+  color: #8c1936;
+  transform: scale(1.1); 
+  box-shadow: 0 0 15px rgba(140, 25, 54, 0.5); 
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 15px rgba(204, 153, 165, 0.8);
+} 
+
+
+
+
+
+/* HEADER*/
+
 .main-model-grid{
+  margin-top: 10%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  
 }
 
 .model {
   width: 100%;
+  object-fit: cover;
+  border-radius: 10px; 
 }
 
-.product{
-  width: 20%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-left: 3.8%;
+.category-product-grid {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.product-page{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px; 
+  
+}
+
+.accesories-grid {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+.accesories {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px; 
 }
 
 body {
@@ -41,9 +145,11 @@ ul {
 li {
   margin-left: 3rem;
 }
+
 h1 {
+  
   text-align: center;
-  margin-top: 15%;
+  margin-top: 10%;
   font-size: 500%;
   color: #cc99a5;
 }
@@ -66,6 +172,7 @@ footer {
 }
 
 /*PRODUCT PAGE*/
+
 .category-product{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -75,14 +182,52 @@ footer {
   width: 100%;
 }
 
+
+
 /*ABOUT US PAGE*/
-.aimeelogo{
-  width: 40%;
-  margin-left: 28%;
+.about-us {
+  font-style: italic;
+  font-weight: 80;
+  text-align: center;
+  margin-top: 6%;
 }
+.aimeelogo{
+  width: 12%;
+  margin-left: 44%;
+}
+
 .signiturenames{
-  width: 50%;
-  margin-left: 23%;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 6%;
+}
+
+.contact-box{
+  align-items: center;
+  justify-content: center;
+  margin-left: 0%;
+  margin-top: 3%;
+  font-weight: 400;
+  color: #cc99a5;
+
+}
+
+
+.contact-info{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 21%;
+  text-align: center;
+ 
+}
+
+#name, #e-mail, #message, #button{
+  width: 25%;
+
 }
 
 /*DETAIL PRODUCT PAGE PICTURE WHITE BLOUSE DRESS*/
