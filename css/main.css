@@ -11,9 +11,41 @@ a {
   font-style: normal;
   color: white;
 }
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
 
+/* NAVIGATION*/
+.shopping-cart-icon{
+  color: rgba(100, 100, 100, 0.5);
+}
+.home-amiee-logo{
+  width: 100px;
+  height: auto;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+nav ul li a{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
 /* HEADER*/
 /* header-top-line*/
+.header-top-line{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .search-bar {
   display: flex;
   justify-content: center;
@@ -47,11 +79,6 @@ a {
 .search-bar button:hover {
   background-color: #6a1127;
 }
-
-
- 
-
-
 
 
 /* HOMEPAGE*/
@@ -158,6 +185,7 @@ h1 {
 
 footer {
   border-top: 1px solid white;
+  margin-top: 100px;
 }
 
 .footer-aimee {
@@ -290,7 +318,6 @@ footer {
   cursor: pointer;
 }
 
-
 .expand-wrapper {
   border-top: 1px solid white;
 }
@@ -331,17 +358,23 @@ footer {
 .about-us {
   font-style: italic;
   font-weight: 80;
+  font-size: 150%;
   text-align: center;
   margin-top: 6%;
+  margin-bottom: 0%;
 }
 .aimeelogo{
   width: 12%;
   margin-left: 44%;
 }
 
+.picture-of-the-two-of-us{
+  width: 60%;
+  margin-left: 17%;
+}
 .signiturenames{
-  width: 30%;
-  margin-left: 35%;
+  width: 50%;
+  margin-left: 25%;
   margin-top: 6%;
 }
 
@@ -355,7 +388,6 @@ footer {
 
 }
 
-
 .contact-info{
   display: flex;
   gap: 10px;
@@ -363,7 +395,7 @@ footer {
   align-items: center;
   justify-content: center;
   margin-top: 10%;
-  margin-bottom: 21%;
+  margin-bottom: 10%;
   text-align: center;
  
 }
@@ -373,5 +405,84 @@ footer {
 
 }
 
-/*DETAIL PRODUCT PAGE PICTURE WHITE BLOUSE DRESS*/
+/*POFIL PAGE*/
+.profil-container{
+  display: flex;
+  align-items: center;
 
+}
+.Profilpicture{
+  width: 30%;
+  border: 10px dotted #cc99a5;
+  border-radius: 150px;
+}
+
+.profil-info {
+  width: 50%;
+  padding-left: 70px;
+}
+
+.profil-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #cc99a5;
+}
+
+.profil-price {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  margin: 5px 0 15px;
+}
+
+.profil-description {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/*MY ORDERS PAGE*/
+.order-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #cc99a5;
+}
+.order-date-last{
+  border-bottom: 1px dotted white;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+.order-number{
+  font-weight: bold;
+}
+
+.ordered-item{
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+}
+.order-date{
+  text-align: left;
+}
+.white-blouse-previous-orders{
+  width: 30%;
+  margin-top: 100px;
+}
+.hairclip-previous-orders{
+  width: 30%;
+}
+.brownbag-previous-orders{
+  width: 30%;
+  margin-top: 10%;
+}
+
+.my-personal-details-headings{
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.my-personal-details-text{
+  margin-left: 50px;
+}
+/*SITEING 
+https://www.youtube.com/watch?v=QBSSpw-GH2w (How to put icons in Icons)*/
