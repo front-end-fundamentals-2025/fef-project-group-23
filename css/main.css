@@ -6,7 +6,6 @@ h5,
 p,
 a {
   font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
   color: white;
@@ -19,11 +18,11 @@ a:hover{
 }
 
 /* NAVIGATION*/
-.shopping-cart-icon{
-  color: rgba(100, 100, 100, 0.5);
+.material-symbols-outlined{
+  width: 80%;
 }
 .home-amiee-logo{
-  width: 100px;
+  width: 15%;
   height: auto;
 }
 header{
@@ -39,12 +38,33 @@ nav ul li a{
   padding: 0%;
   margin: 0%;
 }
+body {
+  background-color: #8c1936;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  
+}
+li {
+  margin-left: 3rem;
+}
+
+h1 {
+  
+  text-align: center;
+  margin-top: 10%;
+  font-size: 500%;
+  color: #cc99a5;
+}
 /* HEADER*/
 /* header-top-line*/
 .header-top-line{
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .search-bar {
   display: flex;
@@ -63,7 +83,7 @@ nav ul li a{
   border-radius: 5px;
   outline: none;
   margin-right: 10px;
-  width: 250px;
+  width: 100%;
 }
 
 .search-bar button {
@@ -86,6 +106,10 @@ nav ul li a{
 .position-button {
   margin-top: 10%;
   margin-left: 40%;
+  font-size: 3rem;
+}
+figcaption{
+  color: white;
 }
 
 button {
@@ -115,12 +139,6 @@ button:focus {
   box-shadow: 0 0 15px rgba(204, 153, 165, 0.8);
 } 
 
-
-
-
-
-/* HEADER*/
-
 .main-model-grid{
   margin-top: 10%;
   display: grid;
@@ -140,11 +158,10 @@ button:focus {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.product-page{
+.product-page-image{
   width: 100%;
   object-fit: cover;
   border-radius: 10px; 
-  
 }
 
 .accesories-grid {
@@ -160,26 +177,7 @@ button:focus {
   border-radius: 10px; 
 }
 
-body {
-  background-color: #8c1936;
-}
 
-ul {
-  display: flex;
-  list-style: none;
-  
-}
-li {
-  margin-left: 3rem;
-}
-
-h1 {
-  
-  text-align: center;
-  margin-top: 10%;
-  font-size: 500%;
-  color: #cc99a5;
-}
 
 /*FOOTER*/
 
@@ -200,6 +198,14 @@ footer {
 }
 
 /*PRODUCT PAGE*/
+
+.product-page{
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/*PRODUCT DETAIL PAGE*/
 
 .product-container {
   display: flex;
@@ -486,3 +492,36 @@ footer {
 }
 /*SITEING 
 https://www.youtube.com/watch?v=QBSSpw-GH2w (How to put icons in Icons)*/
+
+/* RESPONSIVE LAYOUT*/
+/* PRODUCT GRIDS*/
+@media screen and (min-width: 400px) {
+  .category-product{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .category-product{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .category-product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 1450px) {
+  .category-product{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+}
+
+
