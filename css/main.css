@@ -169,6 +169,7 @@ button:focus {
   margin-bottom: 9%;
 }
 
+
 /*FOOTER*/
 
 .aimee-footer {
@@ -569,6 +570,8 @@ figure {
   text-align: center;
   margin-top: 6%;
   margin-bottom: 0%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .aimeelogo {
   width: 12%;
@@ -646,7 +649,30 @@ figure {
   color: white;
   margin-bottom: 20px;
 }
-
+/*FAQ PAGE*/
+/*https://www.youtube.com/watch?v=IcyXS9aL4bs*/
+.faq-button{
+  background-color:white ;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  outline: none;
+  display: flex;
+align-items: center;
+}
+.pannel{
+  background-color: white;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+.faq{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
 /*MY ORDERS PAGE*/
 .order-heading {
   font-size: 40px;
