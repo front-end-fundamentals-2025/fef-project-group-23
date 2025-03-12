@@ -572,6 +572,22 @@ margin-top: 8%;
   margin-bottom: 0%;
   margin-left: 20px;
   margin-right: 20px;
+  
+  opacity: 0;  
+  transform: translateY(20px);  
+  animation: fadeInUp 1.5s ease-out forwards; 
+}
+
+/* Keyframes for the animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .aimeelogo {
   width: 12%;
@@ -579,12 +595,12 @@ margin-top: 8%;
 }
 
 .picture-of-the-two-of-us {
-  width: 60%;
-  margin-left: 17%;
+  width: 40%;
+  margin-left: 27%;
 }
 .signiturenames {
-  width: 50%;
-  margin-left: 25%;
+  width: 40%;
+  margin-left: 28%;
   margin-top: 6%;
 }
 
