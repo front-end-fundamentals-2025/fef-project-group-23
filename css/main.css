@@ -420,8 +420,8 @@ figure {
 .product-container1 {
   display: flex;
   max-width: 1200px;
-
-  margin-left: 27.5%;
+margin-top: 8%;
+  margin-left: 11.5%;
   align-items: flex-start;
 }
 
@@ -615,14 +615,19 @@ figure {
   width: 25%;
 }
 
-/*POFIL PAGE*/
+/*PROFIL PAGE*/
 .profil-container {
   display: flex;
   align-items: center;
+  margin-left: 15%;
+  margin-bottom: 14%;
+  padding-top: 4%;
+
 }
 .Profilpicture {
   width: 30%;
   border: 10px dotted #cc99a5;
+  box-shadow: 0px 0px 15px rgba(204, 153, 165, 0.5);
   border-radius: 150px;
 }
 
@@ -648,6 +653,40 @@ figure {
   font-size: 14px;
   color: white;
   margin-bottom: 20px;
+}
+/* TYPING ANIMATION */
+.typing-text {
+  padding-top: 6%;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #efb8c8;
+  overflow: hidden;
+  white-space: nowrap;
+  width: fit-content; 
+  margin: 0 auto; 
+}
+
+.typing-text span {
+  display: inline-block;
+  width: 0;
+  overflow: hidden;
+  animation: typing 2s steps(15, end) forwards, blink 0.6s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 /*FAQ PAGE*/
 /*https://www.youtube.com/watch?v=IcyXS9aL4bs*/
