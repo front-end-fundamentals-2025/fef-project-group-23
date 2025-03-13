@@ -562,6 +562,114 @@ figure {
   background-color: #f9f9f9;
 }
 
+/*SHGOPPING CART*/
+
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #cc99a5; 
+  padding: 15px 0;
+  margin-bottom: 15px;
+  max-width: 700px;
+}
+
+
+
+.cart-name-style {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  flex-grow: 1;
+}
+
+
+.cart-price-style {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+
+.cart-button-style {
+  background: none;
+  border: 2px solid #cc99a5;
+  color: #cc99a5;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-button-style:hover {
+  background-color: #cc99a5;
+  color: #8c1936;
+}
+
+
+#cart-container {
+  margin-top: 30px;
+  padding: 20px;
+  max-width: 800px;
+}
+
+/* Shopping Cart Title Animation */
+.shopping-cart-title {
+  padding-top: 80px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #efb8c8;
+  overflow: hidden;
+  white-space: nowrap;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.shopping-cart-title span {
+  display: inline-block;
+  width: 0;
+  overflow: hidden;
+  animation: typing 2s steps(15, end) forwards;
+}
+
+/* SHOPPING CART QUOTE ANIMATION */
+.shopping-cart-quote {
+ padding-top: 200px;
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  color: #efb8c8;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInSlideUp 2s ease-in-out forwards;
+  margin-top: 20px;
+}
+
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 /*ABOUT US PAGE*/
 .about-us {
   font-style: italic;

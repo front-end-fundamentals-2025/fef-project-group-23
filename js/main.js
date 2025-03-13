@@ -23,3 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+const addtocartElement = document.getElementById ("add-to-cart5");
+const shoppingcartElement = document.getElementById ("shopping-cart-icon");
+addtocartElement.addEventListener ("click", function (e) {
+  // const denimdressElement = document.getElementById ("denim-dress")
+  const denimdressnameElement = document.getElementById ("denim-dress-name");
+  const denimdresspriceElement = document.getElementById ("denim-dress-price");
+  localStorage.dressname = denimdressnameElement.innerText;
+  localStorage.dressprice = denimdresspriceElement.innerText;
+  shoppingcartElement.style.color = "#cc99a5";
+});
+

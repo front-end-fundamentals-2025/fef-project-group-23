@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap" />
-
+    <script src="/js/cart.js" defer ></script>
   </head>
   <body>
     
@@ -30,7 +30,7 @@
           <a href="profilpage.html"><li><span class="material-symbols-outlined">
             person
             </span></li></a>
-          <a href="shoppingcart.html"><li><span class="material-symbols-outlined">
+          <a href="shoppingcart.html"><li><span id="shopping-cart-icon"  class="material-symbols-outlined">
             shopping_cart
             </span></li></a>
           <a href="aboutus.html"><li><span class="material-symbols-outlined">
@@ -40,8 +40,13 @@
       </nav>
     </header> 
     <main>
-      <h1>Your Shopping Cart</h1>
-  <div id="cart-container"></div>
+      <h1 class="shopping-cart-title">
+        <span>Your Shopping Cart</span>
+      </h1>
+  <ul id="cart-container"></ul>
+  <p class="shopping-cart-quote">
+    <span>“Timeless, elegant, pre-loved. Sustainably Yours.”</span>
+  </p>
     </main>
     <footer class="aimee-footer">
       <div class="footer-container">

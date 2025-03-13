@@ -6,7 +6,6 @@
     <title>aimée</title>
     <link rel="stylesheet" href="css/main.css" />
     
-    <script src="main.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,7 +14,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap" />
-
+    <script src="/js/main.js" defer ></script>
   </head>
   <body>
     
@@ -33,7 +32,7 @@
           <a href="profilpage.html"><li><span class="material-symbols-outlined">
             person
             </span></li></a>
-          <a href="shoppingcart.html"><li><span class="material-symbols-outlined">
+          <a href="shoppingcart.html"><li><span id="shopping-cart-icon" class="material-symbols-outlined">
             shopping_cart
             </span></li></a>
           <a href="aboutus.html"><li><span class="material-symbols-outlined">
@@ -52,14 +51,14 @@
     
   
   <div class="product-images1">
-      <img src="https://static.zara.net/assets/public/741d/7237/f4b74d65bd74/749a78c6be84/02284576400-p/02284576400-p.jpg?ts=1739898323607&w=1500" alt="Product Image 1">
+      <img id="denim-dress" src="/images/denim-dress.png" alt="Product Image 1">
       <img src="https://static.zara.net/assets/public/3b0d/0fb2/08844a389e14/071c7483a9dd/02284576400-a3/02284576400-a3.jpg?ts=1739898309524&w=1024" alt="Product Image 2">
   </div>
 
   
   <div class="product-info1">
-      <h1 class="product-title1">SAINT LAURENT</h1>
-      <p class="product-price1">3576 KR</p>
+      <h1 id="denim-dress-name" class="product-title1">SAINT LAURENT DRESS</h1>
+      <p id="denim-dress-price" class="product-price1">3576 KR</p>
       <p class="product-description1">Saint Laurent dress from the Spring 2016 collection. Worn once.</p>
    
 
@@ -78,7 +77,7 @@
 
      
       <div class="button-container1">
-          <button class="add-to-cart1">ADD TO CART</button>
+          <button id="add-to-cart5" class="add-to-cart1">ADD TO CART</button>
           <button class="apple-pay1">Buy with Apple Pay</button>
       </div>
 
