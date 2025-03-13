@@ -397,16 +397,19 @@ figure {
 
 .brand {
   font-weight: bold;
+  padding-left: 25px;
   color: black;
 }
 
 .size {
   color: #333;
+  padding-left: 25px;
 }
 
 .price {
   color: #8b1c2d;
   font-weight: bold;
+  padding-left: 25px;
 }
 
 /*PRODUCT DETAIL PAGE*/
