@@ -59,10 +59,11 @@ h1 {
 }
 /* HEADER*/
 /* header-top-line*/
+
 .header-top-line {
   display: flex;
   align-items: center;
-  margin-right: 170px;
+  margin-right: -150px;
   justify-content: center;
   width: 100%;
   padding: 10px;
@@ -75,7 +76,6 @@ h1 {
   background-color: #cc99a5;
   border-radius: 10px;
   width: 90%;
-  max-width: 600px;
 }
 
 .search-bar input {
@@ -162,12 +162,6 @@ button:focus {
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
-}
-
-.decoration {
-  /* border-top: 10px solid #efb8c8; */
-  margin-top: 4%;
-  margin-bottom: 9%;
 }
 
 /*FOOTER*/
@@ -564,18 +558,15 @@ figure {
 
 /*SHGOPPING CART*/
 
-
 .cart-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px solid #cc99a5; 
+  border-bottom: 2px solid #cc99a5;
   padding: 15px 0;
   margin-bottom: 15px;
   max-width: 700px;
 }
-
-
 
 .cart-name-style {
   font-size: 18px;
@@ -585,14 +576,12 @@ figure {
   flex-grow: 1;
 }
 
-
 .cart-price-style {
   font-size: 16px;
   color: white;
   font-weight: 500;
   margin-right: 20px;
 }
-
 
 .cart-button-style {
   background: none;
@@ -611,7 +600,6 @@ figure {
   color: #8c1936;
 }
 
-
 #cart-container {
   margin-top: 30px;
   padding: 20px;
@@ -619,6 +607,7 @@ figure {
 }
 
 /* Shopping Cart Title Animation */
+
 .shopping-cart-title {
   padding-top: 80px;
   font-size: 48px;
@@ -640,7 +629,7 @@ figure {
 
 /* SHOPPING CART QUOTE ANIMATION */
 .shopping-cart-quote {
- padding-top: 200px;
+  padding-top: 200px;
   font-size: 24px;
   font-style: italic;
   text-align: center;
@@ -670,7 +659,9 @@ figure {
     width: 100%;
   }
 }
+
 /*ABOUT US PAGE*/
+
 .about-us {
   font-style: italic;
   font-weight: 80;
@@ -687,6 +678,7 @@ figure {
 }
 
 /* Keyframes for the animation */
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -697,6 +689,7 @@ figure {
     transform: translateY(0);
   }
 }
+
 .aimeelogo {
   width: 12%;
   margin-left: 44%;
@@ -740,6 +733,7 @@ figure {
 }
 
 /*PROFIL PAGE*/
+
 .profil-container {
   display: flex;
   align-items: center;
@@ -777,7 +771,9 @@ figure {
   color: white;
   margin-bottom: 20px;
 }
+
 /* TYPING ANIMATION */
+
 .typing-text {
   padding-top: 6%;
   font-size: 48px;
@@ -819,7 +815,15 @@ figure {
 }
 .faq-question {
   font-weight: bold;
+  color: white;
 }
+details summary {
+  color: #cc99a5;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
 /*MY ORDERS PAGE*/
 .order-heading {
   font-size: 40px;
@@ -840,16 +844,20 @@ figure {
   justify-content: space-between;
   max-width: 700px;
 }
+
 .order-date {
   text-align: left;
 }
+
 .white-blouse-previous-orders {
   width: 30%;
   margin-top: 100px;
 }
+
 .hairclip-previous-orders {
   width: 30%;
 }
+
 .brownbag-previous-orders {
   width: 30%;
   margin-top: 10%;
@@ -863,11 +871,10 @@ figure {
 .my-personal-details-text {
   margin-left: 50px;
 }
-/*SITEING 
-https://www.youtube.com/watch?v=QBSSpw-GH2w (How to put icons in Icons)*/
 
 /* RESPONSIVE LAYOUT*/
 /* PRODUCT GRIDS*/
+
 @media screen and (min-width: 400px) {
   .category-product {
     display: grid;
@@ -911,7 +918,9 @@ https://www.youtube.com/watch?v=QBSSpw-GH2w (How to put icons in Icons)*/
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 /*THIS IS OU BIGGEST SIZE like computer*/
+
 @media screen and (min-width: 1450px) {
   .category-product {
     display: grid;
@@ -938,27 +947,24 @@ https://www.youtube.com/watch?v=QBSSpw-GH2w (How to put icons in Icons)*/
 }
 
 /*SEARCH-BAR RESPONS*/
-@media screen and (min-width: 400px) {
-  .search-bar {
-    max-width: 100%;
-  }
-  .search-bar input {
-    font-size: 14px;
-  }
-}
+
 @media screen and (min-width: 600px) {
   .search-bar {
-    max-width: 90%;
+    max-width: 230px;
     gap: 10px;
   }
   .search-bar input {
-    width: 100%;
+    min-width: 120px;
     margin-right: 0;
   }
 }
 @media screen and (min-width: 1000px) {
   .search-bar {
     max-width: 500px;
+  }
+  .search-bar input {
+    width: 100%;
+    margin-right: 0;
   }
 }
 
@@ -1001,7 +1007,9 @@ https://www.youtube.com/watch?v=QBSSpw-GH2w (How to put icons in Icons)*/
     max-width: 1100px;
   }
 }
+
 /*BUTTON CLICK FOR MORE RESPONS*/
+
 @media screen and (min-width: 400px) {
   .position-button {
     font-size: 1rem;
@@ -1031,6 +1039,7 @@ https://www.youtube.com/watch?v=QBSSpw-GH2w (How to put icons in Icons)*/
   justify-content: center;
   align-items: center;
 }
+/*The following 7 lines of code was adapted from https://www.youtube.com/watch?v=lur8SDdUzPI&t=15s accessed: 2025-03-03 */
 svg path {
   fill: transparent;
   stroke: #efb8c8;
@@ -1073,5 +1082,3 @@ svg path {
 .product-page1:hover {
   transform: scale(1.1);
 }
-
-/*https://www.youtube.com/watch?v=lur8SDdUzPI&t=15s*/
